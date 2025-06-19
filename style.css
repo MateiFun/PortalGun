@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #202020;
+  color: white;
+  user-select: none;
+}
+
+#instructions {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  z-index: 1000;
+}
